@@ -1,0 +1,2 @@
+    solve_simplex()  numpy 
+scipy 
