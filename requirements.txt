@@ -1,2 +1,3 @@
-    solve_simplex()  numpy 
-scipy 
+numpy>=1.24
+scipy>=1.10      # only used by the test-suite to cross-check results
+pytest>=7

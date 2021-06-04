@@ -1,0 +1,10 @@
+[project]
+name = "or-toolkit"
+version = "0.2.0"
+description = "From-scratch simplex, branch-and-bound, transportation (MODI) and Hungarian solvers with sensitivity analysis"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
